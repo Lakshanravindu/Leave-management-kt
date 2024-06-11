@@ -49,9 +49,9 @@ const ApplyLeaveForm = () => {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          gap: '8px', // Reduced gap
+          gap: '8px', 
           backgroundColor: 'white',
-          padding: '16px', // Reduced padding
+          padding: '16px', 
           borderRadius: '8px',
           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         }}
@@ -92,7 +92,7 @@ const ApplyLeaveForm = () => {
           variant="outlined"
           fullWidth
           required
-          sx={{ height: '50px' }} // Reduced height
+          sx={{ height: '50px' }} 
         />
         <TextField
           select
@@ -102,7 +102,7 @@ const ApplyLeaveForm = () => {
           variant="outlined"
           fullWidth
           required
-          sx={{ height: '60px' }} // Reduced height
+          sx={{ height: '60px' }} 
         >
           <MenuItem value="Sick">Sick</MenuItem>
           <MenuItem value="Vacation">Vacation</MenuItem>
@@ -119,7 +119,7 @@ const ApplyLeaveForm = () => {
           InputLabelProps={{
             shrink: true,
           }}
-          sx={{ height: '60px' }} // Reduced height
+          sx={{ height: '60px' }} 
         />
         <TextField
           label="End Date"
@@ -132,7 +132,7 @@ const ApplyLeaveForm = () => {
           InputLabelProps={{
             shrink: true,
           }}
-          sx={{ height: '50px' }} // Reduced height
+          sx={{ height: '50px' }} 
         />
         <TextField
           label="Number of Days"
@@ -141,7 +141,7 @@ const ApplyLeaveForm = () => {
           variant="outlined"
           fullWidth
           required
-          sx={{ height: '50px' }} // Reduced height
+          sx={{ height: '50px' }} 
         />
         <TextField
           label="Reason"
@@ -150,10 +150,10 @@ const ApplyLeaveForm = () => {
           variant="outlined"
           fullWidth
           multiline
-          rows={3} // Reduced number of rows
+          rows={3} 
           required
         />
-        <Button type="submit" variant="contained" color="primary" sx={{ height: '36px' }}> {/* Reduced height */}
+        <Button type="submit" variant="contained" color="primary" sx={{ height: '36px' }}> 
           Submit
         </Button>
       </Box>

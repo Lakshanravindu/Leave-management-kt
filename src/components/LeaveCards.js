@@ -26,14 +26,14 @@ const StyledCard = styled(Card)(({ color }) => ({
 const TopOverlay = styled(Box)({
   backgroundColor: '#fff',
   width: '100%',
-  height: '60%', // Top 60% white overlay
+  height: '60%', 
   position: 'absolute',
   top: 0,
   left: 0,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  zIndex: 1, // Ensure the overlay is above the background
+  zIndex: 1, 
 });
 
 const ValueTypography = styled(Typography)(({ theme }) => ({
@@ -45,21 +45,21 @@ const ValueTypography = styled(Typography)(({ theme }) => ({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  zIndex: 2, // Ensure the value is above the overlay
+  zIndex: 2, 
 }));
 
 const BottomSection = styled(Box)({
   backgroundColor: 'inherit',
   width: '100%',
-  height: '40%', // Bottom 40% color section
+  height: '40%', 
   position: 'absolute',
   bottom: 0,
   left: 0,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  zIndex: 3, // Ensure the text is above the overlay
-  color: '#fff', // White text color
+  zIndex: 3, 
+  color: '#fff', 
 });
 
 const LeaveDetails = () => {

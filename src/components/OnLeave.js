@@ -5,14 +5,14 @@ import avatarImg from '../Images/avatar.jpg';
 
 
 const CustomButton = styled(Button)({
-  backgroundColor: '#ff7043', // Change this to your desired color
+  backgroundColor: '#ff7043', 
   color: '#ffffff',
   '&:hover': {
-    backgroundColor: '#ff5722', // Slightly darker shade on hover
+    backgroundColor: '#ff5722', 
   },
-  margin: '0 8px', // Adds some space between buttons
-  fontSize: '12px', // Smaller font size
-  padding: '4px 12px', // Smaller padding
+  margin: '0 8px', 
+  fontSize: '12px', 
+  padding: '4px 12px', 
 });
 
 const LeaveDashboard = () => {
